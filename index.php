@@ -152,7 +152,7 @@ $days_until_deadline = null;
                         </td>
 
                         <td class="task__date">
-                            <!--выведите здесь дату выполнения задачи-->
+                           <!--выведите здесь дату выполнения задачи-->
                         </td>
 
                         <td class="task__controls">
