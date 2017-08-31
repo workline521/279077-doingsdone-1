@@ -153,8 +153,9 @@ $days_until_deadline = floor(($task_deadline_ts - $current_ts) / 86400);
                         </td>
 
                         <td class="task__date">
-                            <!--выведите здесь дату выполнения задачи-->
+
                             <?= $date_deadline ?>
+
                         </td>
 
                         <td class="task__controls">
