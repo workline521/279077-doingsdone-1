@@ -25,7 +25,7 @@ $days_until_deadline = floor(($task_deadline_ts - $current_ts) / 86400);
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body><!--class="overlay"-->
+<body> <!--class="overlay"-->
 <h1 class="visually-hidden">Дела в порядке</h1>
 
 <div class="page-wrapper">
