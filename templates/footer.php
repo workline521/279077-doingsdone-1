@@ -1,4 +1,4 @@
-<footer class="main-footer">
+<footer class="main-footer" style="margin-top: 90px;">
     <div class="container">
         <div class="main-footer__copyright">
             <p>© 2017, «Дела в порядке»</p>
