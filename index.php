@@ -60,7 +60,7 @@ if (isset($_GET['project_id'])) {
      }
  }
 include('functions.php');
-
+var_dump([$filtered_tasks])
 ?>
 <!DOCTYPE html>
 <html lang="en">
