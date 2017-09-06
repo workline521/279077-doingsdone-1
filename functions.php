@@ -22,4 +22,5 @@ function calculateTasks(array $task_list, string $project): int
     }
     return $count;
 }
+
 ?>

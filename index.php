@@ -37,11 +37,11 @@ $pizza = [
     'completed' => false
 ];
 $task_list = [$interview, $test, $finished_task, $meeting, $catfood, $pizza];
-$filtered_tasks = [];
+$filtered_tasks = $task_list;
 
 if (isset($_GET['project_id'])) {
     $projectId = (int) $_GET['project_id'];
-
+    $filtered_tasks = [];
     if ($projectId == 0) {
         $filtered_tasks = $task_list;
     } else {
@@ -57,10 +57,10 @@ if (isset($_GET['project_id'])) {
             $filtered_tasks[] = $task;
             }
        }
-     }
+    }
  }
 include('functions.php');
-var_dump([$filtered_tasks])
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
